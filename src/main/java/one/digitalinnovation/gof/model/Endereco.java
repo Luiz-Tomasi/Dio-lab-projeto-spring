@@ -2,6 +2,7 @@ package one.digitalinnovation.gof.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import lombok.Data;
 
 /**
  * Os atributos desse modelo foram gerados automaticamente pelo site
@@ -11,8 +12,10 @@ import javax.persistence.Id;
  * @see <a href="https://viacep.com.br">ViaCEP</a>
  * 
  * @author falvojr
+ * @changedBy Luiz-Tomasi
  */
 @Entity
+@Data
 public class Endereco {
 
 	@Id
